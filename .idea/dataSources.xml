@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3529796979">
+    <data-source source="LOCAL" name="H2 - spring-test" uuid="6dacc9ad-8a6c-4dc5-9456-de5746d5ce23">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/spring-test;auto_server=true</jdbc-url>
+    </data-source>
+  </component>
+</project>
