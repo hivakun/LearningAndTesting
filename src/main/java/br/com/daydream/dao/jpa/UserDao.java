@@ -9,5 +9,5 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface UserDao extends CrudRepository<User, Long> {
 
-    Long countByNome(String nome);
+    Long countByName(String name);
 }

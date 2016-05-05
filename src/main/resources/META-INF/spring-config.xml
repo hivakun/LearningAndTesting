@@ -44,10 +44,6 @@
         <constructor-arg ref="dataSource"/>
     </bean>
 
-    <bean id="customerDAO" class="br.com.daydream.dao.jdbc.JdbcImportUsuarios">
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
-
     <bean id="applicationBean" class="br.com.daydream.Application"/>
 
     <!-- Define as configuracoes JPA (persistence.xml) -->
