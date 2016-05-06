@@ -1,7 +1,7 @@
 package br.com.daydream;
 
 import br.com.daydream.dao.jdbc.TemplateUserDAO;
-import br.com.daydream.dao.jpa.UserDao;
+import br.com.daydream.dao.jpa.UserCRUDDao;
 import br.com.daydream.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,7 +13,7 @@ import java.util.List;
 public class Application {
 
     @Autowired
-    private UserDao dao;
+    private UserCRUDDao dao;
 
     @Autowired
     private TemplateUserDAO jdbcDao;
